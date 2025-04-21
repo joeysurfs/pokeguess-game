@@ -353,7 +353,7 @@
     "name": "Clefable",
     "type1": "Fairy",
     "type2": "None",
-    "evolution_stage": 2,
+    "evolution_stage": 3,
     "fully_evolved": true,
     "colors": ["Pink"],
     "habitats": ["Cave", "Mountain"],
@@ -2507,5 +2507,1355 @@
     "colors": ["Green"],
     "habitats": ["Forest"],
     "generation": 2
+  },
+  {
+    "name": "Treecko",
+    "type1": "Grass",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Green"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Grovyle",
+    "type1": "Grass",
+    "type2": "None",
+    "evolution_stage": 2,
+    "fully_evolved": false,
+    "colors": ["Green"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Sceptile",
+    "type1": "Grass",
+    "type2": "None",
+    "evolution_stage": 3,
+    "fully_evolved": true,
+    "colors": ["Green"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Torchic",
+    "type1": "Fire",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Orange"],
+    "habitats": ["Plains"],
+    "generation": 3
+  },
+  {
+    "name": "Combusken",
+    "type1": "Fire",
+    "type2": "Fighting",
+    "evolution_stage": 2,
+    "fully_evolved": false,
+    "colors": ["Orange","Yellow"],
+    "habitats": ["Plains"],
+    "generation": 3
+  },
+  {
+    "name": "Blaziken",
+    "type1": "Fire",
+    "type2": "Fighting",
+    "evolution_stage": 3,
+    "fully_evolved": true,
+    "colors": ["Red","Yellow"],
+    "habitats": ["Plains"],
+    "generation": 3
+  },
+  {
+    "name": "Mudkip",
+    "type1": "Water",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Blue"],
+    "habitats": ["Lake"],
+    "generation": 3
+  },
+  {
+    "name": "Marshtomp",
+    "type1": "Water",
+    "type2": "Ground",
+    "evolution_stage": 2,
+    "fully_evolved": false,
+    "colors": ["Blue","Orange"],
+    "habitats": ["Lake"],
+    "generation": 3
+  },
+  {
+    "name": "Swampert",
+    "type1": "Water",
+    "type2": "Ground",
+    "evolution_stage": 3,
+    "fully_evolved": true,
+    "colors": ["Blue"],
+    "habitats": ["Lake"],
+    "generation": 3
+  },
+  {
+    "name": "Poochyena",
+    "type1": "Dark",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Gray", "Black"],
+    "habitats": ["Plains","Urban"],
+    "generation": 3
+  },
+  {
+    "name": "Mightyena",
+    "type1": "Dark",
+    "type2": "None",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Gray", "Black"],
+    "habitats": ["Plains","Urban"],
+    "generation": 3
+  },
+  {
+    "name": "Zigzagoon",
+    "type1": "Normal",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Brown","Tan"],
+    "habitats": ["Forest","Plains"],
+    "generation": 3
+  },
+  {
+    "name": "Linoone",
+    "type1": "Normal",
+    "type2": "None",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Brown","Tan"],
+    "habitats": ["Forest","Plains"],
+    "generation": 3
+  },
+  {
+    "name": "Wurmple",
+    "type1": "Bug",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Red"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Silcoon",
+    "type1": "Bug",
+    "type2": "None",
+    "evolution_stage": 2,
+    "fully_evolved": false,
+    "colors": ["White"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Beautifly",
+    "type1": "Bug",
+    "type2": "Flying",
+    "evolution_stage": 3,
+    "fully_evolved": true,
+    "colors": ["Yellow","White"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Cascoon",
+    "type1": "Bug",
+    "type2": "None",
+    "evolution_stage": 2,
+    "fully_evolved": false,
+    "colors": ["Purple", "Pink"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Dustox",
+    "type1": "Bug",
+    "type2": "Poison",
+    "evolution_stage": 3,
+    "fully_evolved": true,
+    "colors": ["Green","Purple"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Lotad",
+    "type1": "Water",
+    "type2": "Grass",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Blue","Green"],
+    "habitats": ["Lake"],
+    "generation": 3
+  },
+  {
+    "name": "Lombre",
+    "type1": "Water",
+    "type2": "Grass",
+    "evolution_stage": 2,
+    "fully_evolved": false,
+    "colors": ["Green"],
+    "habitats": ["Lake"],
+    "generation": 3
+  },
+  {
+    "name": "Ludicolo",
+    "type1": "Water",
+    "type2": "Grass",
+    "evolution_stage": 3,
+    "fully_evolved": true,
+    "colors": ["Green","Yellow"],
+    "habitats": ["Lake"],
+    "generation": 3
+  },
+  {
+    "name": "Seedot",
+    "type1": "Grass",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Brown","Tan"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Nuzleaf",
+    "type1": "Grass",
+    "type2": "Dark",
+    "evolution_stage": 2,
+    "fully_evolved": false,
+    "colors": ["Brown"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Shiftry",
+    "type1": "Grass",
+    "type2": "Dark",
+    "evolution_stage": 3,
+    "fully_evolved": true,
+    "colors": ["Brown","White"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Taillow",
+    "type1": "Normal",
+    "type2": "Flying",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Blue", "Red"],
+    "habitats": ["Plains"],
+    "generation": 3
+  },
+  {
+    "name": "Swellow",
+    "type1": "Normal",
+    "type2": "Flying",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Blue","Red"],
+    "habitats": ["Plains"],
+    "generation": 3
+  },
+  {
+    "name": "Wingull",
+    "type1": "Water",
+    "type2": "Flying",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["White","Blue"],
+    "habitats": ["Sea"],
+    "generation": 3
+  },
+  {
+    "name": "Pelipper",
+    "type1": "Water",
+    "type2": "Flying",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["White","Blue"],
+    "habitats": ["Sea"],
+    "generation": 3
+  },
+  {
+    "name": "Ralts",
+    "type1": "Psychic",
+    "type2": "Fairy",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["White","Green"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Kirlia",
+    "type1": "Psychic",
+    "type2": "Fairy",
+    "evolution_stage": 2,
+    "fully_evolved": false,
+    "colors": ["White","Green"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Gardevoir",
+    "type1": "Psychic",
+    "type2": "Fairy",
+    "evolution_stage": 3,
+    "fully_evolved": true,
+    "colors": ["White","Green"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Surskit",
+    "type1": "Bug",
+    "type2": "Water",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Blue"],
+    "habitats": ["Lake"],
+    "generation": 3
+  },
+  {
+    "name": "Masquerain",
+    "type1": "Bug",
+    "type2": "Flying",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Blue","White"],
+    "habitats": ["Lake"],
+    "generation": 3
+  },
+  {
+    "name": "Shroomish",
+    "type1": "Grass",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Brown", "Green"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Breloom",
+    "type1": "Grass",
+    "type2": "Fighting",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Green","Brown"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Slakoth",
+    "type1": "Normal",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Brown"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Vigoroth",
+    "type1": "Normal",
+    "type2": "None",
+    "evolution_stage": 2,
+    "fully_evolved": false,
+    "colors": ["White","Red"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Slaking",
+    "type1": "Normal",
+    "type2": "None",
+    "evolution_stage": 3,
+    "fully_evolved": true,
+    "colors": ["Brown", "Tan"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Nincada",
+    "type1": "Bug",
+    "type2": "Ground",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["White","Brown"],
+    "habitats": ["Forest","Cave"],
+    "generation": 3
+  },
+  {
+    "name": "Ninjask",
+    "type1": "Bug",
+    "type2": "Flying",
+    "evolution_stage": 2,
+    "fully_evolved": false,
+    "colors": ["Yellow", "Black"],
+    "habitats": ["Forest", "Cave"],
+    "generation": 3
+  },
+  {
+    "name": "Shedinja",
+    "type1": "Bug",
+    "type2": "Ghost",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Brown","White"],
+    "habitats": ["Forest", "Cave"],
+    "generation": 3
+  },
+  {
+    "name": "Whismur",
+    "type1": "Normal",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Pink", "Yellow"],
+    "habitats": ["Cave"],
+    "generation": 3
+  },
+  {
+    "name": "Loudred",
+    "type1": "Normal",
+    "type2": "None",
+    "evolution_stage": 2,
+    "fully_evolved": false,
+    "colors": ["Blue", "Purple"],
+    "habitats": ["Cave"],
+    "generation": 3
+  },
+  {
+    "name": "Exploud",
+    "type1": "Normal",
+    "type2": "None",
+    "evolution_stage": 3,
+    "fully_evolved": true,
+    "colors": ["Purple", "Yellow"],
+    "habitats": ["Cave"],
+    "generation": 3
+  },
+  {
+    "name": "Makuhita",
+    "type1": "Fighting",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Yellow"],
+    "habitats": ["Mountain"],
+    "generation": 3
+  },
+  {
+    "name": "Hariyama",
+    "type1": "Fighting",
+    "type2": "None",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Brown"],
+    "habitats": ["Mountain"],
+    "generation": 3
+  },
+  {
+    "name": "Azurill",
+    "type1": "Normal",
+    "type2": "Fairy",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Blue"],
+    "habitats": ["Lake"],
+    "generation": 3
+  },
+  {
+    "name": "Nosepass",
+    "type1": "Rock",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Gray"],
+    "habitats": ["Cave"],
+    "generation": 3
+  },
+  {
+    "name": "Skitty",
+    "type1": "Normal",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Pink"],
+    "habitats": ["Forest","Urban"],
+    "generation": 3
+  },
+  {
+    "name": "Delcatty",
+    "type1": "Normal",
+    "type2": "None",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Purple"],
+    "habitats": ["Forest","Urban"],
+    "generation": 3
+  },
+  {
+    "name": "Sableye",
+    "type1": "Dark",
+    "type2": "Ghost",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Purple"],
+    "habitats": ["Cave"],
+    "generation": 3
+  },
+  {
+    "name": "Mawile",
+    "type1": "Steel",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Yellow", "Black"],
+    "habitats": ["Ruins"],
+    "generation": 3
+  },
+  {
+    "name": "Aron",
+    "type1": "Steel",
+    "type2": "Rock",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Gray"],
+    "habitats": ["Mountain"],
+    "generation": 3
+  },
+  {
+    "name": "Lairon",
+    "type1": "Steel",
+    "type2": "Rock",
+    "evolution_stage": 2,
+    "fully_evolved": false,
+    "colors": ["Gray"],
+    "habitats": ["Mountain"],
+    "generation": 3
+  },
+  {
+    "name": "Aggron",
+    "type1": "Steel",
+    "type2": "Rock",
+    "evolution_stage": 3,
+    "fully_evolved": true,
+    "colors": ["Gray"],
+    "habitats": ["Mountain"],
+    "generation": 3
+  },
+  {
+    "name": "Meditite",
+    "type1": "Fighting",
+    "type2": "Psychic",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Blue","White"],
+    "habitats": ["Mountain"],
+    "generation": 3
+  },
+  {
+    "name": "Medicham",
+    "type1": "Fighting",
+    "type2": "Psychic",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["White","Red"],
+    "habitats": ["Mountain"],
+    "generation": 3
+  },
+  {
+    "name": "Electrike",
+    "type1": "Electric",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Green"],
+    "habitats": ["Plains"],
+    "generation": 3
+  },
+  {
+    "name": "Manectric",
+    "type1": "Electric",
+    "type2": "None",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Yellow","Blue"],
+    "habitats": ["Plains"],
+    "generation": 3
+  },
+  {
+    "name": "Plusle",
+    "type1": "Electric",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Yellow","Red"],
+    "habitats": ["Plains"],
+    "generation": 3
+  },
+  {
+    "name": "Minun",
+    "type1": "Electric",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Yellow","Blue"],
+    "habitats": ["Plains"],
+    "generation": 3
+  },
+  {
+    "name": "Volbeat",
+    "type1": "Bug",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Red", "Gray"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Illumise",
+    "type1": "Bug",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Blue", "Purple"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Roselia",
+    "type1": "Grass",
+    "type2": "Poison",
+    "evolution_stage": 2,
+    "fully_evolved": false,
+    "colors": ["Green","Red"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Gulpin",
+    "type1": "Poison",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Green"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Swalot",
+    "type1": "Poison",
+    "type2": "None",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Purple"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Carvanha",
+    "type1": "Water",
+    "type2": "Dark",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Blue","Red"],
+    "habitats": ["Sea"],
+    "generation": 3
+  },
+  {
+    "name": "Sharpedo",
+    "type1": "Water",
+    "type2": "Dark",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Blue","Gray"],
+    "habitats": ["Sea"],
+    "generation": 3
+  },
+  {
+    "name": "Wailmer",
+    "type1": "Water",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Blue","White"],
+    "habitats": ["Sea"],
+    "generation": 3
+  },
+  {
+    "name": "Wailord",
+    "type1": "Water",
+    "type2": "None",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Blue","White"],
+    "habitats": ["Sea"],
+    "generation": 3
+  },
+  {
+    "name": "Numel",
+    "type1": "Fire",
+    "type2": "Ground",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Brown","Yellow"],
+    "habitats": ["Desert", "Mountain"],
+    "generation": 3
+  },
+  {
+    "name": "Camerupt",
+    "type1": "Fire",
+    "type2": "Ground",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Brown","Orange"],
+    "habitats": ["Desert", "Mountain"],
+    "generation": 3
+  },
+  {
+    "name": "Torkoal",
+    "type1": "Fire",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Brown","Red"],
+    "habitats": ["Mountain"],
+    "generation": 3
+  },
+  {
+    "name": "Spoink",
+    "type1": "Psychic",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Gray"],
+    "habitats": ["Cave"],
+    "generation": 3
+  },
+  {
+    "name": "Grumpig",
+    "type1": "Psychic",
+    "type2": "None",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Purple", "Gray"],
+    "habitats": ["Cave"],
+    "generation": 3
+  },
+  {
+    "name": "Spinda",
+    "type1": "Normal",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Brown"],
+    "habitats": ["Urban"],
+    "generation": 3
+  },
+  {
+    "name": "Trapinch",
+    "type1": "Ground",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Orange"],
+    "habitats": ["Desert"],
+    "generation": 3
+  },
+  {
+    "name": "Vibrava",
+    "type1": "Ground",
+    "type2": "Dragon",
+    "evolution_stage": 2,
+    "fully_evolved": false,
+    "colors": ["Green"],
+    "habitats": ["Desert"],
+    "generation": 3
+  },
+  {
+    "name": "Flygon",
+    "type1": "Ground",
+    "type2": "Dragon",
+    "evolution_stage": 3,
+    "fully_evolved": true,
+    "colors": ["Green"],
+    "habitats": ["Desert"],
+    "generation": 3
+  },
+  {
+    "name": "Cacnea",
+    "type1": "Grass",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Green"],
+    "habitats": ["Desert"],
+    "generation": 3
+  },
+  {
+    "name": "Cacturne",
+    "type1": "Grass",
+    "type2": "Dark",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Green"],
+    "habitats": ["Desert"],
+    "generation": 3
+  },
+  {
+    "name": "Swablu",
+    "type1": "Normal",
+    "type2": "Flying",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Blue","White"],
+    "habitats": ["Mountain", "Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Altaria",
+    "type1": "Dragon",
+    "type2": "Flying",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Blue", "White"],
+    "habitats": ["Forest","Mountain"],
+    "generation": 3
+  },
+  {
+    "name": "Zangoose",
+    "type1": "Normal",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["White", "Red"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Seviper",
+    "type1": "Poison",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Black","Red"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Lunatone",
+    "type1": "Rock",
+    "type2": "Psychic",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Gray"],
+    "habitats": ["Desert", "Cave"],
+    "generation": 3
+  },
+  {
+    "name": "Solrock",
+    "type1": "Rock",
+    "type2": "Psychic",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Orange"],
+    "habitats": ["Desert", "Cave"],
+    "generation": 3
+  },
+  {
+    "name": "Barboach",
+    "type1": "Water",
+    "type2": "Ground",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Blue","Gray"],
+    "habitats": ["Lake"],
+    "generation": 3
+  },
+  {
+    "name": "Whiscash",
+    "type1": "Water",
+    "type2": "Ground",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Blue","Yellow"],
+    "habitats": ["Lake"],
+    "generation": 3
+  },
+  {
+    "name": "Corphish",
+    "type1": "Water",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Red", "Orange"],
+    "habitats": ["Lake"],
+    "generation": 3
+  },
+  {
+    "name": "Crawdaunt",
+    "type1": "Water",
+    "type2": "Dark",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Red"],
+    "habitats": ["Lake"],
+    "generation": 3
+  },
+  {
+    "name": "Baltoy",
+    "type1": "Ground",
+    "type2": "Psychic",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Brown", "Pink"],
+    "habitats": ["Desert"],
+    "generation": 3
+  },
+  {
+    "name": "Claydol",
+    "type1": "Ground",
+    "type2": "Psychic",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Black","Pink"],
+    "habitats": ["Desert"],
+    "generation": 3
+  },
+  {
+    "name": "Lileep",
+    "type1": "Rock",
+    "type2": "Grass",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Purple","Pink"],
+    "habitats": ["Sea","Desert"],
+    "generation": 3
+  },
+  {
+    "name": "Cradily",
+    "type1": "Rock",
+    "type2": "Grass",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Green","Pink"],
+    "habitats": ["Sea","Desert"],
+    "generation": 3
+  },
+  {
+    "name": "Anorith",
+    "type1": "Rock",
+    "type2": "Bug",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Brown","Gray"],
+    "habitats": ["Sea"],
+    "generation": 3
+  },
+  {
+    "name": "Armaldo",
+    "type1": "Rock",
+    "type2": "Bug",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Brown","Gray"],
+    "habitats": ["Sea"],
+    "generation": 3
+  },
+  {
+    "name": "Feebas",
+    "type1": "Water",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Brown","Blue"],
+    "habitats": ["Lake"],
+    "generation": 3
+  },
+  {
+    "name": "Milotic",
+    "type1": "Water",
+    "type2": "None",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Blue","Red"],
+    "habitats": ["Lake"],
+    "generation": 3
+  },
+  {
+    "name": "Castform",
+    "type1": "Normal",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["White"],
+    "habitats": ["Urban"],
+    "generation": 3
+  },
+  {
+    "name": "Kecleon",
+    "type1": "Normal",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Green"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Shuppet",
+    "type1": "Ghost",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Gray"],
+    "habitats": ["Ruins"],
+    "generation": 3
+  },
+  {
+    "name": "Banette",
+    "type1": "Ghost",
+    "type2": "None",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Gray"],
+    "habitats": ["Ruins"],
+    "generation": 3
+  },
+  {
+    "name": "Duskull",
+    "type1": "Ghost",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Gray"],
+    "habitats": ["Cave", "Ruins"],
+    "generation": 3
+  },
+  {
+    "name": "Dusclops",
+    "type1": "Ghost",
+    "type2": "None",
+    "evolution_stage": 2,
+    "fully_evolved": false,
+    "colors": ["Gray"],
+    "habitats": ["Cave", "Ruins"],
+    "generation": 3
+  },
+  {
+    "name": "Tropius",
+    "type1": "Grass",
+    "type2": "Flying",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Green"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Chimecho",
+    "type1": "Psychic",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Blue","Red"],
+    "habitats": ["Mountain"],
+    "generation": 3
+  },
+  {
+    "name": "Absol",
+    "type1": "Dark",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["White", "Blue"],
+    "habitats": ["Mountain"],
+    "generation": 3
+  },
+  {
+    "name": "Wynaut",
+    "type1": "Psychic",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Blue"],
+    "habitats": ["Plains"],
+    "generation": 3
+  },
+  {
+    "name": "Snorunt",
+    "type1": "Ice",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Yellow", "Tan"],
+    "habitats": ["Mountain"],
+    "generation": 3
+  },
+  {
+    "name": "Glalie",
+    "type1": "Ice",
+    "type2": "None",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Blue", "White"],
+    "habitats": ["Mountain"],
+    "generation": 3
+  },
+  {
+    "name": "Spheal",
+    "type1": "Ice",
+    "type2": "Water",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Blue","White"],
+    "habitats": ["Sea"],
+    "generation": 3
+  },
+  {
+    "name": "Sealeo",
+    "type1": "Ice",
+    "type2": "Water",
+    "evolution_stage": 2,
+    "fully_evolved": false,
+    "colors": ["Blue"],
+    "habitats": ["Sea"],
+    "generation": 3
+  },
+  {
+    "name": "Walrein",
+    "type1": "Ice",
+    "type2": "Water",
+    "evolution_stage": 3,
+    "fully_evolved": true,
+    "colors": ["Blue"],
+    "habitats": ["Sea"],
+    "generation": 3
+  },
+  {
+    "name": "Clamperl",
+    "type1": "Water",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Blue"],
+    "habitats": ["Sea"],
+    "generation": 3
+  },
+  {
+    "name": "Huntail",
+    "type1": "Water",
+    "type2": "None",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Blue","Orange"],
+    "habitats": ["Sea"],
+    "generation": 3
+  },
+  {
+    "name": "Gorebyss",
+    "type1": "Water",
+    "type2": "None",
+    "evolution_stage": 2,
+    "fully_evolved": true,
+    "colors": ["Pink"],
+    "habitats": ["Sea"],
+    "generation": 3
+  },
+  {
+    "name": "Relicanth",
+    "type1": "Water",
+    "type2": "Rock",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Brown"],
+    "habitats": ["Sea"],
+    "generation": 3
+  },
+  {
+    "name": "Luvdisc",
+    "type1": "Water",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Pink"],
+    "habitats": ["Sea"],
+    "generation": 3
+  },
+  {
+    "name": "Bagon",
+    "type1": "Dragon",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Blue", "Gray"],
+    "habitats": ["Mountain"],
+    "generation": 3
+  },
+  {
+    "name": "Shelgon",
+    "type1": "Dragon",
+    "type2": "None",
+    "evolution_stage": 2,
+    "fully_evolved": false,
+    "colors": ["Gray"],
+    "habitats": ["Mountain"],
+    "generation": 3
+  },
+  {
+    "name": "Salamence",
+    "type1": "Dragon",
+    "type2": "Flying",
+    "evolution_stage": 3,
+    "fully_evolved": true,
+    "colors": ["Blue","Red"],
+    "habitats": ["Mountain"],
+    "generation": 3
+  },
+  {
+    "name": "Beldum",
+    "type1": "Steel",
+    "type2": "Psychic",
+    "evolution_stage": 1,
+    "fully_evolved": false,
+    "colors": ["Blue","Gray"],
+    "habitats": ["Cave"],
+    "generation": 3
+  },
+  {
+    "name": "Metang",
+    "type1": "Steel",
+    "type2": "Psychic",
+    "evolution_stage": 2,
+    "fully_evolved": false,
+    "colors": ["Blue","Gray"],
+    "habitats": ["Cave"],
+    "generation": 3
+  },
+  {
+    "name": "Metagross",
+    "type1": "Steel",
+    "type2": "Psychic",
+    "evolution_stage": 3,
+    "fully_evolved": true,
+    "colors": ["Blue","Gray"],
+    "habitats": ["Cave"],
+    "generation": 3
+  },
+  {
+    "name": "Regirock",
+    "type1": "Rock",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Brown"],
+    "habitats": ["Ruins"],
+    "generation": 3
+  },
+  {
+    "name": "Regice",
+    "type1": "Ice",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Blue"],
+    "habitats": ["Ruins"],
+    "generation": 3
+  },
+  {
+    "name": "Registeel",
+    "type1": "Steel",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Gray"],
+    "habitats": ["Ruins"],
+    "generation": 3
+  },
+  {
+    "name": "Latias",
+    "type1": "Dragon",
+    "type2": "Psychic",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Red","White"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Latios",
+    "type1": "Dragon",
+    "type2": "Psychic",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Blue","White"],
+    "habitats": ["Forest"],
+    "generation": 3
+  },
+  {
+    "name": "Kyogre",
+    "type1": "Water",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Blue"],
+    "habitats": ["Sea"],
+    "generation": 3
+  },
+  {
+    "name": "Groudon",
+    "type1": "Ground",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Red"],
+    "habitats": ["Mountain", "Cave"],
+    "generation": 3
+  },
+  {
+    "name": "Rayquaza",
+    "type1": "Dragon",
+    "type2": "Flying",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Green"],
+    "habitats": ["Mountain"],
+    "generation": 3
+  },
+  {
+    "name": "Jirachi",
+    "type1": "Steel",
+    "type2": "Psychic",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Yellow"],
+    "habitats": ["Ruins"],
+    "generation": 3
+  },
+  {
+    "name": "Deoxys",
+    "type1": "Psychic",
+    "type2": "None",
+    "evolution_stage": 1,
+    "fully_evolved": true,
+    "colors": ["Red", "Blue"],
+    "habitats": ["Ruins"],
+    "generation": 3
   }
 ]
