@@ -4,6 +4,7 @@ import random
 import os
 import tkinter as tk
 from tkinter import messagebox
+from tkinter import ttk
 
 # ANSI color codes for console output
 RED_BG = "\033[41m"
@@ -79,6 +80,20 @@ class PokedleApp:
         
         # Headers
         self.headers = ["Name", "Type1", "Type2", "Stage", "Full Evo?", "Colors", "Habitats", "Gen"]
+        
+        # Configure the style for the combobox
+        self.style = ttk.Style()
+        self.style.configure("TCombobox", 
+                      fieldbackground="#ffffff",
+                      background="#ffffff",
+                      foreground="#000000",
+                      selectbackground="#e3f2fd",
+                      selectforeground="#000000",
+                      insertcolor="#000000",
+                      font=("Arial", 14))
+        self.style.map('TCombobox', 
+                fieldbackground=[('readonly', '#ffffff')],
+                selectbackground=[('readonly', '#e3f2fd')])
 
         # Create UI elements
         self.create_widgets()
@@ -135,8 +150,26 @@ class PokedleApp:
         input_controls = tk.Frame(self.input_frame, bg="#f0f0f0")
         input_controls.pack()
         
-        self.guess_entry = tk.Entry(input_controls, font=("Arial", 14), width=30)
+        # Get sorted list of Pokemon names for autocomplete
+        pokemon_names = sorted([p['name'] for p in self.pokedex.values()])
+        
+        # Create the combobox for Pokemon selection with autocomplete
+        self.guess_entry = ttk.Combobox(
+            input_controls,
+            values=pokemon_names,
+            font=("Arial", 14),
+            width=30,
+            height=15  # Show 15 suggestions at once
+        )
         self.guess_entry.grid(row=0, column=0, padx=10)
+        
+        # Configure the combobox
+        self.guess_entry.option_add('*TCombobox*Listbox.font', ('Arial', 12))
+        self.guess_entry.option_add('*TCombobox*Listbox.selectBackground', '#e3f2fd')
+        self.guess_entry.option_add('*TCombobox*Listbox.selectForeground', '#000000')
+        
+        # Bind events for filtering suggestions as user types
+        self.guess_entry.bind('<KeyRelease>', self.filter_pokemon_names)
         self.guess_entry.bind('<Return>', lambda event: self.submit_guess())
         
         # Button frame for alignment
@@ -188,6 +221,36 @@ class PokedleApp:
         
         # Set focus to entry field
         self.guess_entry.focus_set()
+        
+    def filter_pokemon_names(self, event):
+        """Filter the Pokémon names in the dropdown based on what the user types."""
+        # Don't filter for navigation keys
+        if event.keysym in ('Up', 'Down', 'Left', 'Right', 'Return', 'Escape'):
+            return
+            
+        typed_text = self.guess_entry.get().lower()
+        
+        if typed_text == '':
+            # If empty, show all Pokémon (sorted)
+            pokemon_names = sorted([p['name'] for p in self.pokedex.values()])
+            self.guess_entry['values'] = pokemon_names
+        else:
+            # Filter Pokémon names that contain the typed text
+            filtered_names = [name for name in self.pokedex.values() 
+                            if typed_text in name['name'].lower()]
+            
+            # Sort filtered names for better user experience
+            filtered_names = sorted([p['name'] for p in filtered_names])
+            
+            # Limit to a reasonable number
+            if len(filtered_names) > 15:
+                filtered_names = filtered_names[:15]
+                
+            self.guess_entry['values'] = filtered_names
+            
+            # Update the dropdown without forcing focus to it
+            # Do not automatically show dropdown - let user press Down key if they want to see suggestions
+            # This keeps typing ability intact
 
     def on_canvas_configure(self, event):
         self.canvas.configure(scrollregion=self.canvas.bbox("all"))
